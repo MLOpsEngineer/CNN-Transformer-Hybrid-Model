@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cnn-transformer-hybrid-model"
+version = "0.1.0"
+description = ""
+authors = ["MLOpsEngineer <sys@kakao.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torchtext = "^0.18.0"
+torch = "2.3.0"
+torchdata = "^0.8.0"
+portalocker = "^2.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
